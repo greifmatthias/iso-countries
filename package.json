@@ -1,0 +1,26 @@
+{
+  "name": "iso-countries",
+  "version": "1.0.0",
+  "description": "iso country conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greifmatthias/iso-countries.git"
+  },
+  "keywords": [
+    "iso-country",
+    "flag",
+    "country",
+    "naming",
+    "conversion"
+  ],
+  "author": "Greif Matthias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greifmatthias/iso-countries/issues"
+  },
+  "homepage": "https://github.com/greifmatthias/iso-countries#readme"
+}
