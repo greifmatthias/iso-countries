@@ -1,7 +1,7 @@
 {
-  "name": "iso-countries",
+  "name": "iso-country-conversion",
   "version": "1.0.0",
-  "description": "iso country conversions",
+  "description": "iso country conversions to name and Unicode flag",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
