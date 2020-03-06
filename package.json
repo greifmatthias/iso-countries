@@ -1,6 +1,6 @@
 {
   "name": "iso-country-conversion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "iso country conversions to name and Unicode flag",
   "main": "index.js",
   "scripts": {
