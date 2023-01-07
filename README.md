@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/user/8fd64d05-2a0b-433e-b862-88c53af4efd4/project/c84ba303-364d-4681-8baa-beceaffe76f7.svg)](https://wakatime.com/badge/user/8fd64d05-2a0b-433e-b862-88c53af4efd4/project/c84ba303-364d-4681-8baa-beceaffe76f7)
+
 # ISO-COUNTRY-CONVERSION
 
 **quick note: this project was made for own use, but it's my gift to the public so everyone can enjoy, feel free to give it another life.**
