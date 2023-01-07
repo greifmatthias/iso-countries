@@ -1,10 +1,9 @@
-const data = require('../data');
+const data = require("../data");
 
 const getName = (iso) => {
+  const country = data[iso.toUpperCase()];
 
-    const country = data[iso.toUpperCase()];
-
-    return country ? country.name : undefined;
+  return country ? country.name : undefined;
 };
 
 module.exports = getName;

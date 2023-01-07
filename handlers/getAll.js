@@ -1,3 +1,5 @@
-const data = require('../data');
+const data = require("../data");
 
-module.exports = function () { return data; };
+module.exports = function () {
+  return data;
+};

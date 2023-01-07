@@ -1,8 +1,7 @@
-const { getName, getFlag, getIsoThree } = require('./handlers');
+const { getName, getFlag, getIsoThree } = require("./handlers");
 
 module.exports = {
-
-    getName,
-    getFlag,
-    getIsoThree
+  getName,
+  getFlag,
+  getIsoThree,
 };
