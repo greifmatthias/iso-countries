@@ -1,4 +1,6 @@
-const countryData = {
+import { Country } from "./data.types";
+
+export const countryData: Record<string, Country> = {
   AF: { name: "Afghanistan", isoThree: "AFG" },
   AX: { name: "Aland Islands", isoThree: "ALA" },
   AL: { name: "Albania", isoThree: "ALB" },
@@ -249,5 +251,3 @@ const countryData = {
   ZM: { name: "Zambia", isoThree: "ZMB" },
   ZW: { name: "Zimbabwe", isoThree: "ZWE" },
 };
-
-module.exports = countryData;
