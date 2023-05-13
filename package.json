@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/greifmatthias/iso-countries/issues"
   },
+  "scripts": {
+    "update": "npx npm-check-updates -u && npm i"
+  },
   "homepage": "https://github.com/greifmatthias/iso-countries#readme",
   "devDependencies": {
     "typescript": "5.0.4",
