@@ -7,12 +7,21 @@
 
 
 ## INSTALLATION
-Just run the ```npm i iso-country-conversion ``` in your Node project.
+Just run the ```npm i @greifmatthias/iso-countries``` in your Node project.
 
 
 ## FUNCTIONALITIES
 All these functionalities are based on a ISO 3166-1 alpha-2 code.
 
+### GET LIST OF ALL SUPPORTED COUNTRIES
+This function returns a list of alle the supported countries
+
+Example:
+```javascript
+import { getAll } from '@greifmatthias/iso-countries';
+
+const countries = getAll();
+```
 
 ### GET THE FLAG FOR A COUNTRY
 This function returns a Unicode based Flag Emoji like follow: 🇧🇪 for Belgium.
@@ -20,9 +29,9 @@ If the emoji is displayed like 🇧 🇪, it means that your current environment
 
 Example: ```Greetings from 🇧🇪```
 ```javascript
-const countryHandler = require('iso-country-conversion');
+import { getFlag } from '@greifmatthias/iso-countries';
 
-const flag = countryHandler.getFlag('BE');
+const flag = getFlag('BE');
 console.log(`Greetings from ${flag}`); 
 ```
 
@@ -32,10 +41,10 @@ This function returns the name of the country in English.
 
 Example: ```Greetings from Belgium```
 ```javascript
-const countryHandler = require('iso-country-conversion');
+import { getName } from '@greifmatthias/iso-countries';
 
-const flag = countryHandler.getName('BE');
-console.log(`Greetings from ${flag}`); 
+const name = getName('BE');
+console.log(`Greetings from ${name}`); 
 ```
 
 
@@ -44,8 +53,8 @@ This function returns the 3-letter-version ISO for a country.
 
 Example: ```Greetings from BEL```
 ```javascript
-const countryHandler = require('iso-country-conversion');
+import { getIsoThree } from '@greifmatthias/iso-countries';
 
-const flag = countryHandler.getIsoThree('BE');
-console.log(`Greetings from ${flag}`); 
+const iso = getIsoThree('BE');
+console.log(`Greetings from ${iso}`); 
 ```
